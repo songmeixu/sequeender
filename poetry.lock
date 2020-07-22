@@ -510,7 +510,7 @@ description = "A tool to automatically upgrade syntax for newer versions."
 name = "pyupgrade"
 optional = false
 python-versions = ">=3.6.1"
-version = "2.7.0"
+version = "2.7.1"
 
 [package.dependencies]
 tokenize-rt = ">=3.2.0"
@@ -748,8 +748,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "5e190e0b6f49c484c5e90bab988329e27bd12696d324341f3112c997246b040e"
-lock-version = "1.0"
+content-hash = "98d375c9d1e24cefc34e494ff58b18715755fc9aebb8105099307fed6075c768"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -964,8 +963,8 @@ pytest = [
     {file = "pytest-5.4.3.tar.gz", hash = "sha256:7979331bfcba207414f5e1263b5a0f8f521d0f457318836a7355531ed1a4c7d8"},
 ]
 pyupgrade = [
-    {file = "pyupgrade-2.7.0-py2.py3-none-any.whl", hash = "sha256:fe9b607891eaa8e2df4f863a0da37abf1d388d776685e78eaf8e5afe06345d53"},
-    {file = "pyupgrade-2.7.0.tar.gz", hash = "sha256:aaca2f8707b70d3f38da9b795ea77c4fdfacedef3bc117b95dcfdf18230a1010"},
+    {file = "pyupgrade-2.7.1-py2.py3-none-any.whl", hash = "sha256:eb52caf1be4052b78e7689cdc293e99de723a2346b31dd0b590a98f6866ed48a"},
+    {file = "pyupgrade-2.7.1.tar.gz", hash = "sha256:e0c5b664a756617d9e4c8f1556afd197cea524971a8a645fef06e46934e78359"},
 ]
 pyyaml = [
     {file = "PyYAML-5.3.1-cp27-cp27m-win32.whl", hash = "sha256:74809a57b329d6cc0fdccee6318f44b9b8649961fa73144a98735b0aaf029f1f"},
