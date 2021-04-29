@@ -1,0 +1,71 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "21:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: identify
+    versions:
+    - 1.5.13
+    - 1.5.14
+    - 2.0.0
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.2.3
+  - dependency-name: pyupgrade
+    versions:
+    - 2.10.0
+    - 2.10.1
+    - 2.11.0
+    - 2.12.0
+    - 2.7.4
+    - 2.9.0
+  - dependency-name: rich
+    versions:
+    - 10.0.0
+    - 10.0.1
+    - 9.10.0
+    - 9.11.0
+    - 9.11.1
+    - 9.12.0
+    - 9.12.3
+    - 9.12.4
+    - 9.13.0
+  - dependency-name: virtualenv
+    versions:
+    - 20.4.0
+    - 20.4.2
+    - 20.4.3
+  - dependency-name: darglint
+    versions:
+    - 1.5.8
+    - 1.6.0
+    - 1.7.0
+  - dependency-name: urllib3
+    versions:
+    - 1.26.3
+  - dependency-name: pytest
+    versions:
+    - 6.2.2
+  - dependency-name: mypy
+    versions:
+    - "0.800"
+  commit-message:
+    prefix: ":arrow_up:"
+- package-ecosystem: github-actions
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "21:00"
+  open-pull-requests-limit: 10
+  commit-message:
+    prefix: ":arrow_up:"
